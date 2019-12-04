@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChuckNorrisJokeApp.MainPage" 
+             BackgroundColor="Accent" >
+
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height=".5*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- Place new controls here -->
+
+        <Button CornerRadius="55" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2"
+                Text="Click me"/>
+        <Button CornerRadius="55" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2"
+                Text="Categories"/>
+
+        <Image Source="tenor.gif" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+        
+
+
+
+    </Grid>
+     
+</ContentPage>
